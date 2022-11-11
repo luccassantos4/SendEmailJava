@@ -6,8 +6,9 @@
 <li>Postman</li>
 </ul>
 
-Body do Email EndPoint
+Corpo do Email EndPoint
 
+```json
 {
     "fromEmail" : "nome@dominio.com",
     "fromName" : "Nome",
@@ -17,3 +18,4 @@ Body do Email EndPoint
     "body" : "Meu conteúdo do email com <strong>palavra forte</strong> destacada.",
     "contentType" : "text/html"
 }
+```
